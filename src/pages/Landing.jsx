@@ -85,17 +85,7 @@ export default function Landing() {
 
       <div className="about">
         <div className="about_left">
-          <div
-            className="image"
-            data-aos="zoom-in-right"
-            data-aos-offset="50"
-            data-aos-delay="10"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-anchor-placement="top-center"
-          >
+          <div className="image">
             <img src="/images/about_letsroll.jpg" alt="" />
           </div>
         </div>
