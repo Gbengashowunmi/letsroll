@@ -8,6 +8,7 @@
   text-align: center;
   background-color:var(--clr-background-grey) ;
   color: var(--clr-secondary);
+  overflow-x: hidden;
 }
 
 :root {
