@@ -84,11 +84,6 @@ export default function Landing() {
       </article>
 
       <div className="about">
-        <div className="about_left">
-          <div className="image">
-            <img src="/images/about_letsroll.jpg" alt="" />
-          </div>
-        </div>
         <div
           className="right"
           data-aos="zoom-in-right"
@@ -111,6 +106,11 @@ export default function Landing() {
             neque dignissimos, provident atque quidem veritatis nemo velit
             quibusdam debitis beatae nesciunt?{" "}
           </p>
+        </div>
+        <div className="about_left">
+          <div className="image">
+            <img src="/images/about_letsroll.jpg" alt="" />
+          </div>
         </div>
       </div>
 
