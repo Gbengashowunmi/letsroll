@@ -64,7 +64,7 @@ export default function Landing() {
             <div className="icon">
               <Icon icon="mdi:customer-service" width="70" height="70" />
             </div>
-            <h6>Select a car</h6>
+            <h6>Contact us</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
               molestias exercitationem maiores, quam aliquam eveniet!
@@ -74,7 +74,7 @@ export default function Landing() {
             <div className="icon">
               <Icon icon="ic:baseline-electric-car" width="40" height="40" />
             </div>
-            <h6>Select a car</h6>
+            <h6>Let's Drive</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
               molestias exercitationem maiores, quam aliquam eveniet!
