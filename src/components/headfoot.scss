@@ -145,6 +145,10 @@ footer {
   grid-template-columns: 1fr;
   .footer_category {
     padding: .5rem 1rem;
+      h5{
+        font-size: 1.2rem;
+
+      }
     p {
       color: var(--clr-white);
       font-size: 1rem;

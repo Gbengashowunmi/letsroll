@@ -6,7 +6,7 @@ import "./waitlist.scss";
 import HeadFoot from "../components/HeadFoot";
 import { Icon } from "@iconify/react";
 import Faq from "../components/Faq";
-// import AOS from "aos";
+import AOS from "aos";
 
 export default function Landing() {
   return (
@@ -26,7 +26,17 @@ export default function Landing() {
             <button>About Us</button>
           </div>
         </aside>
-        <aside className="right">
+        <aside
+          className="right"
+          data-aos="slide-left"
+          data-aos-offset="-500"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="image">
             <img src="/images/car11.png" alt="" />
           </div>
@@ -74,12 +84,31 @@ export default function Landing() {
       </article>
 
       <div className="about">
-        <div className="about_left">
+        <div
+          className="about_left"
+          data-aos="slide-left"
+          data-aos-offset="-200"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          // data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="image">
             <img src="/images/about_letsroll.jpg" alt="" />
           </div>
         </div>
-        <div className="right">
+        <div
+          className="right"
+          data-aos="zoom-in-right"
+          data-aos-offset="50"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <p className="bigger_p">
             <strong> About Us</strong>
           </p>
@@ -96,7 +125,16 @@ export default function Landing() {
       </div>
 
       <div className="why_us">
-        <div className="left">
+        <div
+          className="left"
+          data-aos="zoom-in-right"
+          data-aos-offset="50"
+          data-aos-delay="10"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <p>Why Choose Us</p>
 
           <h4>Best valued deals you will ever find</h4>
@@ -157,10 +195,9 @@ export default function Landing() {
           consequatur quia velit a, eligendi reprehenderit voluptates odit quis
           nihil voluptatum!
         </p>
-<div className="faq_wrapper">
-
-        <Faq/>
-</div>
+        <div className="faq_wrapper">
+          <Faq />
+        </div>
       </article>
     </HeadFoot>
   );
