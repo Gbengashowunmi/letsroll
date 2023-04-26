@@ -87,7 +87,7 @@ export default function Landing() {
         <div
           className="about_left"
           data-aos="slide-right"
-          data-aos-offset="-200"
+          data-aos-offset="50"
           data-aos-delay="10"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
