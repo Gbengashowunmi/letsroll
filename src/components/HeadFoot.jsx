@@ -9,7 +9,9 @@ export default function HeadFoot({ children }) {
           <TemporaryDrawer />
         </div>
         <section className="logo">
-          <p>let's roll logo</p>
+          <div className="image">
+            <img src="/images/letsroll_logo.jpeg" alt="" />
+          </div>
         </section>
         <section className="nav">
           <ul>

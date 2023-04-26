@@ -5,6 +5,7 @@ import "./waitlist.scss";
 // import Checkbox from "@mui/material/Checkbox";
 import HeadFoot from "../components/HeadFoot";
 import { Icon } from "@iconify/react";
+import Faq from "../components/Faq";
 // import AOS from "aos";
 
 export default function Landing() {
@@ -12,7 +13,9 @@ export default function Landing() {
     <HeadFoot>
       <section className="hero_section">
         <aside className="left">
-          <p>Get a car without hassle</p>
+          <p>
+            <strong> Get a car without hassle </strong>
+          </p>
           <h3>Save Big wiith our car deals</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et
@@ -37,12 +40,9 @@ export default function Landing() {
         <h4>Quick & easy car rental/purchase</h4>
 
         <div className="steps">
-          <div
-            className="step"
-    
-          >
+          <div className="step">
             <div className="icon">
-              <Icon icon="fluent-mdl2:car" width="50" height="50" />
+              <Icon icon="fluent-mdl2:car" width="30" height="30" />
             </div>
             <h6>Select a car</h6>
             <p>
@@ -62,7 +62,7 @@ export default function Landing() {
           </div>
           <div className="step">
             <div className="icon">
-              <Icon icon="ic:baseline-electric-car" width="55" height="55" />
+              <Icon icon="ic:baseline-electric-car" width="40" height="40" />
             </div>
             <h6>Select a car</h6>
             <p>
@@ -157,6 +157,10 @@ export default function Landing() {
           consequatur quia velit a, eligendi reprehenderit voluptates odit quis
           nihil voluptatum!
         </p>
+<div className="faq_wrapper">
+
+        <Faq/>
+</div>
       </article>
     </HeadFoot>
   );
