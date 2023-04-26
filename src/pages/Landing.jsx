@@ -86,7 +86,7 @@ export default function Landing() {
       <div className="about">
         <div
           className="about_left"
-          data-aos="slide-right"
+          data-aos="zoom-in-right"
           data-aos-offset="50"
           data-aos-delay="10"
           data-aos-duration="1000"
