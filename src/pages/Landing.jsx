@@ -125,7 +125,10 @@ export default function Landing() {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          <p>Why Choose Us</p>
+          <p className="bigger_p">
+            {" "}
+            <strong> Why Choose Us</strong>
+          </p>
 
           <h4>Best valued deals you will ever find</h4>
 

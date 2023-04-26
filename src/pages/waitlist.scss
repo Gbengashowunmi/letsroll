@@ -173,8 +173,12 @@ align-items: center;
   gap: 2rem;
   padding: 2rem;
   margin: 2rem 0;
+      .bigger_p {
+      font-size: 1.5rem;
+    }
   .left {
     text-align: left;
+    padding: 2rem;
     button {
       margin-top: 2rem;
       @include button;
