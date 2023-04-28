@@ -16,7 +16,7 @@ export default function Landing() {
           <p>
             <strong> Get a car without hassle </strong>
           </p>
-          <h3>Save Big wiith our car deals</h3>
+          <h3>Save Big with our car deals</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et
             cum, dolore odit maxime fugit!
